@@ -1,0 +1,148 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455 ;
+    background-color: #FFFFFF;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title-section {
+    background-color: #2e2f42;
+}
+
+.page-title {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   font-weight: 500;
+   background-color: #4D5AE5;
+   color: white;
+   cursor: pointer;
+}
+
+button:focus{
+   background-color: #404BBF;
+   color: white;
+}
+
+button:hover{
+   background-color: #404BBF;
+   color: white;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.section-content {
+    font-size: 16;
+    line-height: 1.5;
+    color:  #434455; 
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 500;
+      line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42 ;
+}
+
+.menu {
+    font-weight: 500;
+    color: #2e2f42;
+    line-height: 1.5;
+  
+}
+
+.menu:focus {
+    color: #404bbf;
+}
+
+.menu:active {
+    color: #4D5AE5;
+}
+
+.menu:hover {
+    color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
+}
+
+
+.link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.link:focus {
+    color: #404bbf;
+}
+
+.link:hover {
+    color: #404bbf;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+
+.logostudio {
+    
+    color: #2E2F42;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-image {
+    background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.logo-studio-footer {
+    color: #F4F4FD;
+}
+
+.footer-content {
+    font-size: 16;
+    line-height: 1.5;
+    color:  #F4F4FD; 
+}
