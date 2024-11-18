@@ -28,6 +28,7 @@ a {
     height: 72px;
     
     padding-top: 24px;
+    border-bottom: 1px solid #E7E9FC;
     
 }
 .title-section {
@@ -87,13 +88,15 @@ button:hover{
 }
 
 .section-title {
-    font-size: 36px;
+   font-size: 36px;
     font-weight: bold;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-left: auto;
+    padding-right: auto;
     
 }
 
@@ -149,7 +152,7 @@ button:hover{
 .contacts-list{
     display: flex;
     gap: 40px;
-    margin-left: 200px;
+    padding-left: 382px;
     
 
 }
@@ -180,7 +183,7 @@ button:hover{
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
-    padding-left: 156px;
+    
 
 
     
@@ -204,6 +207,9 @@ button:hover{
 
 .footer {
     background-color: #2e2f42;
+    height: 312px;
+    display: flex;
+    padding-top: 100px;
 }
 
 .logo-studio-footer {
@@ -214,6 +220,7 @@ button:hover{
     font-size: 16;
     line-height: 1.5;
     color:  #F4F4FD; 
+    margin-top: 16px;
 }
 
 .container {
@@ -222,6 +229,8 @@ button:hover{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    
+   
 }
 
 .container-title {
@@ -245,10 +254,7 @@ button:hover{
   overflow: hidden;
 }
 
-.container-rules {
-    display: flex;
-    
-}
+
 
 .list-rules {
     display: flex;
@@ -279,7 +285,19 @@ button:hover{
      letter-spacing: 0.02em;
      color: #2e2f42 ;
      text-align: center;
-     padding-top: 20px;
+     margin-top: 32px;
+
+}
+
+.title-portfolio {
+    font-size: 20px;
+    font-weight: 500;
+      line-height: 1.2;
+     letter-spacing: 0.02em;
+     color: #2e2f42 ;
+     text-align: center;
+     margin-top: 32px;
+
 
 }
 
@@ -288,16 +306,24 @@ button:hover{
     line-height: 1.5;
     color:  #434455; 
     text-align: center;
-    padding-top: 10px;
+    margin-top: 8px;
 
+}
+
+.section-content-portfolio {
+    font-size: 16;
+    line-height: 1.5;
+    color:  #434455; 
+    text-align: center;
+    margin-top: 8px;
 }
 
 
 
 .list-team {
     display: flex;
-    gap: 32px;
-    padding-top: 50px;
+    gap: 24px;
+    margin-top: 72px;
 }
 
 .list-team li {
@@ -305,27 +331,18 @@ button:hover{
     height: 380px;
 }
 
-.section-title-team{
-font-size: 36px;
-    font-weight: bold;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    padding-left: auto;
-    padding-right: auto;
-    
-    
+
+
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    margin-top: 72px;
 }
 
-.section-team {
-    background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    height: 732px;
+.portfolio-contents {
+    flex-basis: calc((100% - 2 * 24px) / 3);
 }
-
 
 
 *,
