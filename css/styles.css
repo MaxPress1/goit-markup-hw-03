@@ -60,9 +60,9 @@ header {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     max-width: 496px; 
-    height: 120px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px
     
    
 }
@@ -124,6 +124,7 @@ button:hover{
       line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42 ;
+
 }
 
 .menu-link {
@@ -236,18 +237,32 @@ button:hover{
     background-color: #2e2f42;
     height: 312px;
     display: flex;
-    padding-top: 100px;
+    padding: 100px 0px;
 }
 
 .logo-studio-footer {
     color: #F4F4FD;
 }
 
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: inline-block;
+
+}
+
 .footer-content {
     font-size: 16;
     line-height: 1.5;
     color:  #F4F4FD; 
-    margin-top: 16px;
+    max-width: 264px;
+
 }
 
 .container {
@@ -323,8 +338,7 @@ button:hover{
       line-height: 1.2;
      letter-spacing: 0.02em;
      color: #2e2f42 ;
-     text-align: center;
-     margin-top: 32px;
+     margin-bottom: 8px;
 
 
 }
@@ -333,8 +347,7 @@ button:hover{
     font-size: 16;
     line-height: 1.5;
     color:  #434455; 
-    text-align: center;
-    margin-top: 8px;
+
 }
 
 
@@ -358,8 +371,11 @@ button:hover{
     margin-top: 72px;
 }
 
-.portfolio-contents {
-    flex-basis: calc((100% - 2 * 24px) / 3);
+
+.conten-portfolio {
+    padding: 16px 32px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 
