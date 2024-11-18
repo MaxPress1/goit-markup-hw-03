@@ -21,18 +21,28 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
 
+header {
+  border-bottom: 1px solid #E7E9FC;
+}
 .container-header {
-  
-    
+    max-width: 1158px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
     height: 72px;
     
-    padding-top: 24px;
-    border-bottom: 1px solid #E7E9FC;
-    
 }
+
+
 .title-section {
     background-color: #2e2f42;
+    padding: 188px 0;
      
      
 }
@@ -49,11 +59,11 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-     width: 496px;
+    max-width: 496px; 
     height: 120px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 188px;
+    
    
 }
 
@@ -68,11 +78,12 @@ a {
    background-color: #4D5AE5;
    color: white;
    cursor: pointer;
-   width: 169px;
+   min-width: 169px;
    height: 56px;
 border-radius: 4px;
 margin-left: auto;
 margin-right: auto;
+display: block;
 }
 
 
@@ -118,6 +129,7 @@ button:hover{
     font-weight: 500;
     color: #2e2f42;
     line-height: 1.5;
+    padding: 24px 0;
    
 
   
@@ -127,8 +139,7 @@ button:hover{
 
 .list-menu {
     display: flex;
-    gap: 18px;
-    padding-left: 78px;
+    gap: 40px;
 }
 
 
@@ -152,7 +163,7 @@ button:hover{
 .contacts-list{
     display: flex;
     gap: 40px;
-    padding-left: 382px;
+   margin-left: 340px;
     
 
 }
@@ -183,6 +194,7 @@ button:hover{
     letter-spacing: 0.03em;
     color: #4D5AE5;
     text-transform: uppercase;
+    margin-right: 76px;
     
 
 
@@ -191,7 +203,7 @@ button:hover{
 
 .navbar {
     display: flex;
-
+    align-items: center;
    
 }
 
@@ -230,6 +242,7 @@ button:hover{
     padding-right: 15px;
     margin: 0 auto;
     
+    
    
 }
 
@@ -264,7 +277,7 @@ button:hover{
     gap: 24px;
 }
 
-.list-rules li {
+.item-rules {
     width: calc((100% - 72px)/4);
 }
 
